@@ -1,0 +1,103 @@
+:root{
+  background-image: url('C:/Users/Valerie Jules/Downloads/New folder/siteimages/notebookcover.png');
+}
+
+/*text style*/
+h2{
+  margin-top: 25px;
+  font-size: 50px;
+  font-family: "Rockwell";
+  margin-bottom: 10px;
+}
+h3{
+  font-family: "comic sans ms";
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+h4{
+  font-family: "rockwell";
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+button{
+  font-family: "comic sans ms";
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+article {
+  margin-left: 180px;
+  padding: 0px 0px;
+  margin-right: 20px;
+} 
+
+a[target="_blank"] {
+  margin-left: 180px;
+  padding: 0px 0px;
+  margin-right: 20px;
+}
+
+.sprite {
+	/* background-image: url('/siteimages/SDGsymbols.png'); */
+  background-image: url('C:/Users/Valerie Jules/Downloads/New folder/siteimages/SDGsymbols.png');
+  background-repeat: no-repeat;
+	margin-left: 180px;
+  height: 180px;
+} 
+
+/*navigation bar*/
+nav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #81415b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Rockwell";
+  color: #f5a5ca;
+  display: block;
+}
+
+nav a:hover {color: #ffffff;}
+
+@media screen and (max-height: 450px) {
+  nav {padding-top: 15px;}
+  nav a {font-size: 18px;}
+}
+
+/*header*/
+header {
+  top: 0%;
+  margin-left: 153px;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  position: fixed;
+  display: inline-block;
+}
+
+/*footer*/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(255, 127, 169);
+  color: white;
+  display: block;
+}
+
